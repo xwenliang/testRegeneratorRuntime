@@ -11,7 +11,7 @@ function sleep(time){
 async function test(){
     const time = 1000;
     await sleep(time);
-    console.log(`I have waited for ${time} ms.`);
+    document.getElementById('errMsg').innerHTML = `I have waited for ${time} ms.`;
 };
 
 test();
