@@ -4,7 +4,7 @@
 
 ### 2. `node webpack.dev.js`
 
-### 3. open 'http://localhost:3000'
+### 3. open `http://localhost:3000`
 
 ### 4. `Uncaught TypeError: Cannot read property 'default' of undefined`
 
