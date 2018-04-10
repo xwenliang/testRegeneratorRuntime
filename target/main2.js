@@ -72,9 +72,6 @@
 
 "use strict";
 
-var _regeneratorRuntime = __webpack_require__(1);
-
-var _regeneratorRuntime2 = _interopRequireDefault(_regeneratorRuntime);
 
 var test = function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime2.default.mark(function _callee() {
@@ -103,6 +100,9 @@ var test = function () {
     };
 }();
 
+var _regeneratorRuntime = __webpack_require__(1);
+
+var _regeneratorRuntime2 = _interopRequireDefault(_regeneratorRuntime);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
