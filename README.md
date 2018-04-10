@@ -8,6 +8,4 @@
 
 ### 4. `Uncaught TypeError: Cannot read property 'default' of undefined`
 
-### 5. open `http://localhost:3000/index2.html`, everything seems to be ok.
-
-### 6. but the only difference between `main.js` and `main2.js` was 
+### 5. but move [main.js#L103](./target/main.js#L103) and [main.js#L105](./target/main.js#L105) to the front of [main.js#L76](./target/main.js#L76), then everything seems to be ok: 'http://localhost:3000/index2.html'
